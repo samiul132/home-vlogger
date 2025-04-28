@@ -27,4 +27,4 @@ A simple and clean page to share my videos, updates, and connect with my audienc
 ## Contact
 
 - Email: samiularfinmd@gmail.com
-- Instagram: @samiularfin
+- Instagram: @mdsamiularfin
