@@ -1,0 +1,452 @@
+
+body {
+    background-image: url('img/bg-overlay.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: transparent;
+    
+}
+.body-overlay {
+    font-family: cursive;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, rgb(200 111 82), rgb(255 255 255 / 40%));
+}
+img {
+    max-width: 100%;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+}
+.navbar .nav-link {
+    color: white !important;
+    padding: 0px 20px 0px 20px;
+    font-size: 20px;
+}
+.navbar .nav-link:hover {
+    color: #660a49 !important;
+}
+.hero-section h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 60px;
+}
+.hero-section img{
+    max-width: 450px;
+    margin-top: -100px;
+}
+.border-design{
+    height: 1px;
+    width: 80px;
+    background-color: white;
+    float: right;
+    margin-top: 280px;
+}
+.hero-section p{
+    color: white;
+    text-align: end;
+    margin-top: 300px;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 0px 0px 0px 350px;
+}
+.hero-section i{
+    float: right;
+    color: #C38C7D;
+}
+.hero-section h2{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    font-size: 50px;
+}
+.image{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+.slider-section{
+    background: linear-gradient(to right, rgb(222 208 204), rgb(255 255 255 / 100%));
+}
+.slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3);
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 33.33%;
+    transition: opacity 0.5s ease-in-out;
+    padding: 10px;
+    padding: 20px;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.prev {
+   left: 10px;
+}
+.next {
+   right: 10px; 
+}
+.for-padding-1{
+    padding: 0px 150px 0px 0px;
+}
+.for-padding{
+    padding-top: 200px;
+}
+.for-padding-2{
+    padding-top: 100px;
+}
+.slider-section h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+.slider-section b{
+    color: #c38c7d;
+}
+.slider-section button{
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    border-color: black;
+    color: #826a69;
+    margin-top: 20px;
+}
+.slider-section button:hover{
+    color: #fefefe;
+    background-color: #6D4443;
+    border-color: #6D4443;
+}
+.latest-vlog img{
+    max-width: -webkit-fill-available;
+}
+.latest-vlog{
+    background: linear-gradient(to right, rgb(222 208 204), rgb(255 255 255 / 100%));
+}
+.latest-vlog b{
+    text-align: center;
+    margin-top: 100px;
+    color: #c38c7d;
+}
+.latest-vlog h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.latest-vlog h5{
+    padding: 20px 0px 0px 0px;
+}
+.latest-vlog a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    transition: all 0.3s linear;
+}
+.latest-vlog a:hover{
+    color: #66111d;
+    transform: scale(1.2);
+    padding-bottom: 20px;
+}
+.border-design-2{
+    height: 1px;
+    width: auto;
+    background-color: black;
+}
+.social-media{
+    padding: 100px 0px 200px 0px;
+    background: linear-gradient(to right, rgb(222 208 204), rgb(255 255 255 / 100%));
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding: 20px;
+}
+.youtube span a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s linear;
+}
+.youtube span a:hover{
+    color: #66111d;
+}
+.youtube a{
+    color: red;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding: 20px;
+}
+.facebook span a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s linear;
+}
+.facebook span a:hover{
+    color: #66111d;
+}
+.facebook a{
+    color: #1877F2;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding: 20px;
+}
+.twitter span a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s linear;
+}
+.twitter span a:hover{
+    color: #66111d;
+}
+.twitter a{
+    color: #1DA1F2;
+}
+.social-media i{
+    font-size: 30px;
+
+}
+.social-media p{
+    padding: 0px 0px 0px 20px;
+    font-size: 40px;
+    margin: 0px;
+}
+.social-media .youtube,
+.social-media .facebook,
+.social-media .twitter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media .youtube span,
+.social-media .facebook span,
+.social-media .twitter span {
+    margin-left: auto;
+}
+.achivement{
+    margin-top: -70px;
+}
+.subscribe-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.achivement input {
+    padding: 10px 0px 10px 20px;
+    width: 550px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+.achivement button {
+    letter-spacing: 2px;
+    background: #394b50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+.achivement button:hover {
+    background: #945637;
+    color: white;
+}
+.collaborate{
+    padding: 180px 0px 140px 0px;
+    text-align: center;
+}
+.collaborate h6{
+    color: white;
+    font-size: 14px;
+}
+.collaborate h1{
+    color: white;
+}
+.collaborate p{
+    font-size: 14px;
+    padding: 0px 300px 0px 300px;
+    color: white;
+}
+.collaborate button{
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    border-color: white;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.collaborate button:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.form-section{
+    background-color: #ede1da;
+    padding: 100px 0px 100px 0px;
+}
+.form-section a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.form-section i:hover{
+    color: #c38c7d;
+    transition: color 0.3s ease-in-out;
+}
+.form-section h6{
+    color: #c38c7d;
+}
+.form-section p{
+    color: black;
+    padding: 2px 0px 2px 20px;
+    margin: 0px;
+}
+.form-section h1{
+    padding: 0px 0px 40px 0px;
+}
+.border-design-3{
+    height: 1px;
+    width: 100px;
+    background-color: #c38c7d;
+    margin-bottom: 10px;
+}
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
+}
+.form-group {
+    display: flex;
+    gap: 15px;
+}
+.input-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-container label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.form-container input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 8px 0;
+    font-size: 14px;
+    background: transparent;
+}
+.form-container textarea {
+    resize: none;
+}
+.send-button {
+    width: 100px;
+    background-color: #3f4a4c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.send-button:hover {
+    background-color: #945637;
+}
+.footer-section{
+    background-color: #ede1da;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    padding: 20px;
+}
+.footer-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section a li{
+    padding: 0px 10px 0px 10px;
+    color: black;
+    font-size: 14px;
+}
+.footer-section a li:hover{
+    color: #c38c7d;
+    transition: color 0.3s ease-in-out;
+}
+.social{
+    text-align: center;
+}
+.social i{
+    padding: 0px 5px 0px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.social i:hover{
+    transform: scale(1.2);
+}
+.fa-facebook{
+    color: #1877F2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.footer-copyright{
+    text-align: center;
+    background-color: #ede1da;
+    padding: 30px;
+}
+.footer-copyright p{
+    padding: 0px;
+    margin: 0px;
+}
